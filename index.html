@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>새로만드는 라라스윗</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+        window.onload = () => {
+            let menuBtn = document.querySelector('.mobile_btn');
+            let mobileNav = document.querySelector('.mobile_menu');
+            let clickClose = document.querySelector('.click_close');
+            let clickOpen = document.querySelector('.click_open');
+
+         
+            menuBtn.addEventListener('click', () => {
+                mobileNav.classList.toggle('active');
+                clickClose.classList.toggle('xactive');
+                clickOpen.classList.toggle('menuactive');
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div class="inner">
+                <h1 class="logo">
+                    <a href="#"><img src="img/logo.png" alt=""></a>
+                </h1>
+                <nav class="pc_nav">
+                    <ul class="gnb">
+                        <li>
+                            <a href="#">SHOP</a>
+                            <ul>
+                                <li><a href="#">menu1</a></li>
+                                <li><a href="#">menu2</a></li>
+                                <li><a href="#">menu3</a></li>
+                                <li><a href="#">menu4</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">FLAVOR</a>
+                            <ul>
+                                <li><a href="#">menu1</a></li>
+                                <li><a href="#">menu2</a></li>
+                                <li><a href="#">menu3</a></li>
+                                <li><a href="#">menu4</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">CHANNEL</a>
+                            <ul>
+                                <li><a href="#">menu1</a></li>
+                                <li><a href="#">menu2</a></li>
+                                <li><a href="#">menu3</a></li>
+                                <li><a href="#">menu4</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">PROJECT</a>
+                            <ul>
+                                <li><a href="#">menu1</a></li>
+                                <li><a href="#">menu2</a></li>
+                                <li><a href="#">menu3</a></li>
+                                <li><a href="#">menu4</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                            <ul>
+                                <li><a href="#">menu1</a></li>
+                                <li><a href="#">menu2</a></li>
+                                <li><a href="#">menu3</a></li>
+                                <li><a href="#">menu4</a></li>
+                            </ul>
+                        </li>
+                    </ul><!-- gnb -->
+                </nav>
+                <div class="icon_menu">
+                    <a href="#"><img src="img/user.svg" alt=""></a>
+                    <a href="#"><img src="img/present.svg" alt=""></a>
+                </div><!-- icon_menu -->
+                <div class="mobile_btn mobile">
+                    <a class="click_open" href="#">
+                        <img src="img/menubtn.svg" alt="">
+                    </a>
+                    <a class="click_close" href="#">
+                        <img src="img/menubtn_x.svg" alt="">
+                    </a>
+                </div><!-- mobile_btn -->
+                <div class="mobile_menu mobile">
+                    <ul class="gnb">
+                        <li>
+                            <a href="#">SHOP</a>
+                            <ul>
+                                <li><a href="#">menu1</a></li>
+                                <li><a href="#">menu2</a></li>
+                                <li><a href="#">menu3</a></li>
+                                <li><a href="#">menu4</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">FLAVOR</a>
+                            <ul>
+                                <li><a href="#">menu1</a></li>
+                                <li><a href="#">menu2</a></li>
+                                <li><a href="#">menu3</a></li>
+                                <li><a href="#">menu4</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">CHANNEL</a>
+                            <ul>
+                                <li><a href="#">menu1</a></li>
+                                <li><a href="#">menu2</a></li>
+                                <li><a href="#">menu3</a></li>
+                                <li><a href="#">menu4</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">PROJECT</a>
+                            <ul>
+                                <li><a href="#">menu1</a></li>
+                                <li><a href="#">menu2</a></li>
+                                <li><a href="#">menu3</a></li>
+                                <li><a href="#">menu4</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                            <ul>
+                                <li><a href="#">menu1</a></li>
+                                <li><a href="#">menu2</a></li>
+                                <li><a href="#">menu3</a></li>
+                                <li><a href="#">menu4</a></li>
+                            </ul>
+                        </li>
+                    </ul><!-- gnb -->
+                </div><!-- mobile_menu -->
+            </div><!-- inner -->
+        </header>
+        <div class="section01">
+            <!-- section01은 div로 줌 -->
+            <video autoplay muted loop>
+                <source src="img/mainvisual.mp4">
+            </video>
+            <div class="text_wrap">
+                <div class="text">
+                    <span>소비자들의 건강한 일상을 위해</span>
+                </div>
+                <div class="text">
+                    <span>라라스윗은 건강하고</span>
+                    <strong class="deco">맛있는</strong>
+                </div>
+                <div class="text">
+                    <strong class="deco b">디저트</strong>
+                    <span>를 제공합니다.</span>
+                </div>
+            </div><!-- text_wrap -->
+        </div><!-- section01 -->
+        <section class="section02">
+            <div class="inner">
+                <div class="section_title">
+                    <h2>SHOP</h2>
+                    <div class="edd_btn">
+                        <span>더보기</span>
+                        <img src="img/button1.svg" alt="">
+                    </div><!-- edd_btn -->
+                </div><!-- section_title -->
+                <ul>
+                    <li>저당바</li>
+                    <li>파인트</li>
+                    <li>샌드</li>
+                    <li>저당우유</li>
+                    <li>패키지</li>
+                </ul>
+                <div class="item_wrap">
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image6.png" alt="">
+                            </div><!-- image -->
+                            <h3>아이스크림이름</h3>
+                            <p>100kal</p>
+                        </a>
+                    </div><!-- item -->
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image7.png" alt="">
+                            </div><!-- image -->
+                            <h3>아이스크림이름</h3>
+                            <p>100kal</p>
+                        </a>
+                    </div><!-- item -->
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image8.png" alt="">
+                            </div><!-- image -->
+                            <h3>아이스크림이름</h3>
+                            <p>100kal</p>
+                        </a>
+                    </div><!-- item -->
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image9.png" alt="">
+                            </div><!-- image -->
+                            <h3>아이스크림이름</h3>
+                            <p>100kal</p>
+                        </a>
+                    </div><!-- item -->
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image6.png" alt="">
+                            </div><!-- image -->
+                            <h3>아이스크림이름</h3>
+                            <p>100kal</p>
+                        </a>
+                    </div><!-- item -->
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image7.png" alt="">
+                            </div><!-- image -->
+                            <h3>아이스크림이름</h3>
+                            <p>100kal</p>
+                        </a>
+                    </div><!-- item -->
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image8.png" alt="">
+                            </div><!-- image -->
+                            <h3>아이스크림이름</h3>
+                            <p>100kal</p>
+                        </a>
+                    </div><!-- item -->
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image9.png" alt="">
+                            </div><!-- image -->
+                            <h3>아이스크림이름</h3>
+                            <p>100kal</p>
+                        </a>
+                    </div><!-- item -->
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image6.png" alt="">
+                            </div><!-- image -->
+                            <h3>아이스크림이름</h3>
+                            <p>100kal</p>
+                        </a>
+                    </div><!-- item -->
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image7.png" alt="">
+                            </div><!-- image -->
+                            <h3>아이스크림이름</h3>
+                            <p>100kal</p>
+                        </a>
+                    </div><!-- item -->
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image8.png" alt="">
+                            </div><!-- image -->
+                            <h3>아이스크림이름</h3>
+                            <p>100kal</p>
+                        </a>
+                    </div><!-- item -->
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image9.png" alt="">
+                            </div><!-- image -->
+                            <h3>아이스크림이름</h3>
+                            <p>100kal</p>
+                        </a>
+                    </div><!-- item -->
+
+                </div><!-- item_wrap -->
+            </div><!-- inner -->
+        </section><!-- section02 -->
+        <section class="section03">
+            <div class="inner2">
+                <div class="contents_flex">
+                    <div class="title_container">
+                        <div class="section_title">
+                            <h2>라라스윗 행사 상품</h2>
+                            <p>라라스윗 행사상품 확인하고 할인 받을 수 있습니다 .<br />하나카드 결제시 20% 추가할인 </p>
+                            <div class="edd_btn">
+                                <span>더보기</span>
+                                <img src="img/button1.svg" alt="">
+                            </div><!-- edd_btn -->
+                        </div><!-- section_title -->
+                        <div class="page_btn">
+                            <img class="button-prev" src="img/button2.svg" alt="">
+                            <img class="button-next" src="img/button3.svg" alt="">
+                        </div>
+                    </div><!-- title_container -->
+
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/image10.png" alt="">
+                                <p>한층 더 낮아진 ‘당류’…리뉴얼 된 라라스윗 ‘모나카’</p>
+                            </div><!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <img src="img/image11.png" alt="">
+                                <p>아이스크림을 즐기는 새로운 습관, 라라스윗</p>
+                            </div><!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <img src="img/image13.png" alt="">
+                                <p>라라스윗, 세븐일레븐 입점…전국 판매 실시</p>
+                            </div><!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <img src="img/image14.png" alt="">
+                                <p>라라스윗, '저당 크림롤' 신제품 CU 입점</p>
+                            </div><!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <img src="img/image11.png" alt="">
+                                <p>한층 더 낮아진 ‘당류’…리뉴얼 된 라라스윗 ‘모나카’</p>
+                            </div><!-- swiper-slide -->
+                        </div>
+
+                    </div><!-- swiper mySwiper -->
+
+                </div><!-- contents_flex -->
+            </div><!-- inner -->
+        </section><!-- section03 -->
+        <section class="section04">
+            <div class="inner">
+                <div class="section_title">
+                    <h2>라라스윗 인스타 소식</h2>
+                    <div class="edd_btn">
+                        <span>더보기</span>
+                        <img src="img/button1.svg" alt="">
+                    </div><!-- edd_btn -->
+                </div><!-- section_title -->
+                <div class="item_wrap">
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image1.png" alt="">
+                                <div class="text">
+                                    <h4>법률이 헌법에 위반되는 여부가 재판의 전제가법률이 헌법에 위반되는 여부가 재판의 전제가 된 경우에는 법원은 헌법재판소에 제청 된 경우에는 법원은
+                                        헌법재판소에 제청</h4>
+                                    <p>2024.10.25</p>
+                                    <ul>
+                                        <li>#핫토픽</li>
+                                        <li>#핫토픽</li>
+                                        <li>#핫토픽</li>
+                                    </ul>
+                                    <div class="eventbtn">
+                                        <strong>자세히보기</strong>
+                                        <img src="img/rightbtn.svg" alt="">
+                                    </div>
+                                </div><!-- text -->
+                                <div class="deco">
+                                    <span>New</span>
+                                </div><!-- deco -->
+                            </div><!-- image -->
+                        </a>
+                    </div><!-- item -->
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image2.png" alt="">
+                                <div class="text">
+                                    <h4>법률이 헌법에 위반되는 여부가 재판의 법률이 헌법에 위반되는 여부가 재판의 전제가 된 경우에는 법원은 헌법재판소에 제청전제가 된 경우에는 법원은
+                                        헌법재판소에 제청</h4>
+                                    <p>2024.10.25</p>
+                                    <ul>
+                                        <li>#핫토픽</li>
+                                        <li>#핫토픽</li>
+                                        <li>#핫토픽</li>
+                                    </ul>
+                                    <div class="eventbtn">
+                                        <strong>자세히보기</strong>
+                                        <img src="img/rightbtn.svg" alt="">
+                                    </div>
+                                </div><!-- text -->
+                                <div class="deco">
+                                    <span>New</span>
+                                </div><!-- deco -->
+                            </div><!-- image -->
+                        </a>
+                    </div><!-- item -->
+                    <div class="item">
+                        <a href="#">
+                            <div class="image">
+                                <img src="img/image3.png" alt="">
+                                <div class="text">
+                                    <h4>
+                                        법률이 헌법에 위반되는 여부가 재판의 전제가 된 경우에는 법원은 헌법재판소에 제청법률이 헌법에 위반되는 여부가 재판의 전제가 된 경우에는 법원은
+                                        헌법재판소에 제청법률이 헌법에 위반되는 여부가 재판의 전제가 된 경우에는 법원은 헌법재판소에 제청
+                                    </h4>
+                                    <p>2024.10.25</p>
+                                    <ul>
+                                        <li>#핫토픽</li>
+                                        <li>#핫토픽</li>
+                                        <li>#핫토픽</li>
+                                    </ul>
+                                    <div class="eventbtn">
+                                        <strong>자세히보기</strong>
+                                        <img src="img/rightbtn.svg" alt="">
+                                    </div>
+                                </div><!-- text -->
+                            </div><!-- image -->
+                        </a>
+                    </div><!-- item -->
+
+
+                </div><!-- item_wrap -->
+            </div><!-- inner -->
+        </section><!-- section04 -->
+        <section class="section05">
+            <div class="sec_con">
+                <div class="inner">
+                    <div class="section_title">
+                        <h2>contact</h2>
+                    </div><!-- section_title -->
+                    <div class="section_contents">
+                        <div class="item map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.1609776717737!2d127.05999038939581!3d37.50412125566107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca43eefd814d5%3A0x7a8df181cdb4c5e0!2z7ISc7Jq47Yq567OE7IucIOqwleuCqOq1rCDsmIHrj5nrjIDroZwgMzMz!5e0!3m2!1sko!2skr!4v1729839668440!5m2!1sko!2skr"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <span>서울시 강남구 영동대로 333 4층</span>
+                        </div><!--item map -->
+                        <div class="item text">
+                            <p>고객센터 1533-3312</p>
+                            <p>평일 9~18시 운영 / 주말 및 공휴일 휴무</p>
+                            <hr />
+                            <label class="name" for="nametype">
+                                이메일 <br>
+                                <input id="nametype" name="name" type="text">
+                                <br />
+                            </label>
+                            <label class="contents" for="contentstype">
+                                문의내용 <br> 
+                                <input id="contentstype" name="contents" type="text">
+                            </label>
+                            <a href="#">
+                                <div>문의하기</div>
+                            </a>
+                        </div><!--item text -->
+                    </div><!-- section_contents -->
+                </div><!-- inner -->
+            </div><!-- sec_con -->
+            <footer>
+                <div class="footer_inner">
+                    <div class="sns">
+                        <div class="image"><a href="#"><img src="img/icon_insta.png" alt=""></a></div>
+                        <div class="image"><a href="#"><img src="img/icon_fb.png" alt=""></a></div>
+                    </div><!-- sns -->
+                    <ul class="adress">
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이메일무단수집거부</a></li>
+                    </ul>
+                    <div class="info">
+                        <p>주 라라스윗 | 사업자 등록번호 : 262-88-01226 | 통신판매업 신고번호 : 제 2020-서울강남-00234호</p>
+                        <span>고객센터 : 1533-3312 (평일 9~18시 운영 / 주말 및 공휴일 휴무) / contact@lalasweet.kr</span>
+                        <span>주소 : 서울시 강남구 영동대로 333 4층</span>
+                        <p>2020 © LALASWEET All rights reserved</p>
+                    </div><!--info -->
+                </div><!-- footer_inner -->
+            </footer>
+        </section><!-- section05 -->
+
+    </div><!-- wrap -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          
+            slidesPerView: 1,
+            spaceBetween: 24,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                
+                nextEl: ".button-next",
+                prevEl: ".button-prev",
+            },
+            breakpoints: {
+                961: {
+                    slidesPerView: 1.3,
+                    spaceBetween: 24,
+                },
+                2000: {
+                    slidesPerView: 2.1,
+                    spaceBetween: 32,
+                },
+                2500: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 32,
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>
